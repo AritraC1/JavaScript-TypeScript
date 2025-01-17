@@ -28,3 +28,21 @@ console.log();
 let myTimeStamp = Date.now(); // used in polls, quizes
 console.log(myTimeStamp);
 
+console.log(Math.floor(Date.now()/1000));
+
+console.log()
+
+// Other Methods
+
+let newDate = new Date();
+console.log(newDate);
+console.log(newDate.getDate());
+console.log(newDate.getMonth());
+console.log(newDate.getDay());
+console.log(newDate.getFullYear());
+console.log(newDate.getHours());
+
+// Customizing the toLocaleString() format
+newDate.toLocaleString('default', {
+    weekday: "long",
+})
