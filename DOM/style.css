@@ -6,3 +6,7 @@
 .heading{
     color: green;
 }
+
+span {
+    display: none;
+}
