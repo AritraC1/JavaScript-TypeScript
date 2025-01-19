@@ -152,4 +152,13 @@ account.deposit(100);
 console.log(account.getBalance());  // Output: 100
 account.withdraw(50);
 console.log(account.getBalance());  // Output: 50
+
+// Summary of Key Concepts in OOP in JavaScript:
+
+// Objects: Basic data structures to hold key-value pairs.
+// Classes: Templates for creating objects, introduced in ES6.
+// Inheritance: Mechanism where one class inherits properties and methods from another class.
+// Encapsulation: Bundling data and methods to operate on that data in one class, restricting access to private members.
+// Polymorphism: The ability of different classes to implement the same method in different ways.
+// Abstraction: Hiding the complex implementation details and exposing only the necessary parts.
   
