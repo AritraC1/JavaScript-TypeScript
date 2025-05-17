@@ -7,14 +7,19 @@ let b = 4;
 
 // Addition
 console.log("a + b = ", a+b);
+
 // Subtraction
 console.log("a - b = ", a-b); 
+
 // Multiplication
 console.log("a * b = ", a*b);
+
 // Division
 console.log("a / b = ", a/b); 
+
 // Modulus (Prints Remainder)
 console.log("a % b = ", a%b); 
+
 // Exponent (power)
 console.log("a ** b = ", a**b);
 
@@ -28,12 +33,16 @@ console.log("--a = ", --a);
 
 // Assignment Operators 
 let num = 1;
+
 num += 5 // same as num = num + 5
 console.log("a is now = ", a)
+
 num -= 5 // same as num = num - 5
 console.log("a is now = ", a)
+
 num *= 5 // same as num = num * 5
 console.log("a is now = ", a)
+
 num /= 5 // same as num = num / 5
 console.log("a is now = ", a)
 
