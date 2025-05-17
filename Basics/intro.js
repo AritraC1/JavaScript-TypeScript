@@ -92,3 +92,7 @@ console.log(items);
 
 console.log(typeof null) // null is an object
 console.log(typeof undefined) // undefined is undefined
+
+const id1 = Symbol('123')
+const id2 = Symbol('123')
+console.log(id1 === id2); // False
