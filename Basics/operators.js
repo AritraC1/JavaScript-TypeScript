@@ -68,3 +68,16 @@ console.log(!true)
 /* This is a sample multiline comment and a tutorial
 from 
 codewithharry */
+
+// Question
+console.log(3 + 4 * 5 % 3); // output is 5
+
+/*
+
+1. 4 * 5 = 20
+2. 20 % 3 = 2
+3. 3 + 2 = 5
+
+5 is the solution
+
+*/
