@@ -68,7 +68,7 @@ console.table([accountID, email, password, city, state]) // prints in tabular fo
 
 // There are 7 types of primitive data (basic) types in JS : Null, Number, String, Symbol, Undefined, Boolean, BigInt
 let a = null;
-let b = 123;
+let b = 123; // number (maximum safe integer: 2 to power 53)
 let c = "World";
 let d = Symbol("Yo! This is a symbol");
 let e = undefined;
@@ -89,3 +89,6 @@ console.log(items["Name"]);
 items["friend"] = "Rogers";
 
 console.log(items);
+
+console.log(typeof null) // null is an object
+console.log(typeof undefined) // undefined is undefined
