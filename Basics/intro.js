@@ -28,6 +28,7 @@ console.log(console.log(console.log(console.log()))); // one time undefined show
 // Var (Mutable since its value is changeable - so it is not used at all) GLOBALLY SCOPED matlab kahi se bhi change kr skte ho 
 var name = "Dan";
 console.log(name); // 'a' is a String
+
 var name = 23;
 console.log(name); // 'a' is an int
 
@@ -44,6 +45,23 @@ console.log(constant);
 // c = "Kiwi" -> throws an error cannot be re-assigned
 
 // *** Always use let and const, avoid var
+
+const accountID = 144553
+let email = "abc@google.com"
+var password = "abc@123" // not used
+city = "Delhi" 
+let state; // semi-colon ';' is not reqd
+
+// accountID = 2 // Error
+
+console.log(accountID)
+
+email = "xyz@gmail.com"
+password = "xyz@321"
+city = "Gurgaon"
+
+console.table([accountID, email, password, city, state]) // prints in tabular form
+
 
 
 // <---- Primitive Data Types and Objects ---->
