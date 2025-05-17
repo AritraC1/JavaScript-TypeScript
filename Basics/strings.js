@@ -46,4 +46,3 @@ console.log(fr[3])
 
 // fr[4]= "o" // This is not possible 
 console.log(fr)
-// QuickQuiz: Use a for loop to print a string
