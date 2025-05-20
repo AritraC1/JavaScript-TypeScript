@@ -17,7 +17,9 @@ console.log(c); // 30
 
 // Nested Scope
 
-// Closure
+// CLOSURE
+// A closure is a function that has access to the parent scope, after the parent function has closed.
+
 function one() {
     const username = "Peter";
 
@@ -25,9 +27,26 @@ function one() {
         const website = "youtube";
         console.log(username);
     }
-    console.log(website);
+    // console.log(website);
 
     two();
 }
 
 one();
+
+// ++++++++++++++++++++++++
+
+// HOISTING
+// the process whereby the interpreter appears to move the declaration of functions, variables, classes, or imports to the top of their scope, prior to execution of the code
+
+addOne(5)
+function addOne(num){
+    return num + 1;
+}
+
+console.log(addOne(5));
+
+addTwo(5);
+const addTwo = function(num){
+    return num + 2;
+}
