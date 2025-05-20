@@ -35,14 +35,13 @@ const user = {
 
 // Addn of 2 numbers
 const addTwo = (num1, num2) => {
-    return num1 + num2;
+    return num1 + num2; // Explicite return
 }
 
 console.log(addTwo(5,6));
 
 
 // Implicite Return
-
 const addTwoNum = (num1, num2) =>  num1 + num2; // can also be written as: const addTwoNum = (num1, num2) =>  (num1 + num2)
 console.log(addTwoNum(5,6));
 
@@ -50,3 +49,9 @@ console.log(addTwoNum(5,6));
 
 const addNum = (num1, num2) =>  ({username: "Tony"});
 console.log(addNum(5,6));
+
+// Example of Arrow function using Array and Loop
+const myArr = [2, 5, 3, 7, 8]
+myArr.forEach((items) => {
+    console.log(items);
+})
