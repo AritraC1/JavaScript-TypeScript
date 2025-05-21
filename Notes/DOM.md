@@ -23,9 +23,7 @@ The DOM allows JavaScript to interact with and modify the page dynamically.
 For example: document.getElementById("myId") gets a node, and you can change its content or style.
 
 ## DOM Tree Example
-
 ![DOM Tree](images/DOMTree.png)
-
 
 ### More:
 [DOM - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
