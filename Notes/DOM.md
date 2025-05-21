@@ -1,10 +1,6 @@
 # DOM (Document Object Model)
 
-The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web.
-
-It represents the page so that programs can change the document structure, style, and content. 
-
-The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
 
 # DOM Tree
 
@@ -23,6 +19,7 @@ The DOM tree (Document Object Model tree) is a hierarchical representation of th
 
 ## Why It Matters:
 The DOM allows JavaScript to interact with and modify the page dynamically.
+
 For example: document.getElementById("myId") gets a node, and you can change its content or style.
 
 ## DOM Tree Example
