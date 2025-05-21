@@ -16,10 +16,10 @@ The DOM tree (Document Object Model tree) is a hierarchical representation of th
 - Each node represents a part of the document (like an element, text, or comment).
 
 ## Types of Nodes:
-- Element nodes: HTML elements like <body>, <h1>, <p>.
-- Text nodes: The text inside those elements.
-- Attribute nodes: Attributes like class, id, etc. (usually accessed via element nodes).
-- Comment nodes: HTML comments like <!-- comment -->.
+- **Element nodes**: HTML elements like `<body>`, `<h1>`, `<p>`.
+- **Text nodes**: The text inside those elements.
+- **Attribute nodes**: Attributes like `class`, `id`, etc. (usually accessed via element nodes).
+- **Comment nodes**: HTML comments like `<!-- comment -->`.
 
 ## Why It Matters:
 The DOM allows JavaScript to interact with and modify the page dynamically.
