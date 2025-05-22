@@ -76,6 +76,5 @@ btn.addEventListener("click", () => {
 });
 ```
 
-
 ### More:
-[DOM - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+[DOM - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
