@@ -29,7 +29,7 @@ For example: document.getElementById("myId") gets a node, and you can change its
 
 ### 1. Selecting Elements
 - `document.getElementById("myId");`
-- `document.querySelector(".myClass");`
+- `document.querySelector(".myClass");` // Supports all css selectors
 - `document.querySelectorAll("div");`  // NodeList of all divs
 
 ### 2. Changing Styles
