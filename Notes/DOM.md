@@ -28,21 +28,21 @@ For example: document.getElementById("myId") gets a node, and you can change its
 ## Accessing and Manipulating the DOM with JavaScript
 
 ### 1. Selecting Elements
-`document.getElementById("myId");`
-`document.querySelector(".myClass");`
-`document.querySelectorAll("div");` <!-- NodeList of all divs -->
+- `document.getElementById("myId");`
+- `document.querySelector(".myClass");`
+- `document.querySelectorAll("div");` <!-- NodeList of all divs -->
 
 ### 2. Changing Styles
-`const title = document.getElementById("title");`
-`title.style.backgroundColor = "blue";`
-`title.style.color = "white";`
-`title.style.padding = "12px";`
-`title.style.borderRadius = "15px";`
+- `const title = document.getElementById("title");`
+- `title.style.backgroundColor = "blue";`
+- `title.style.color = "white";`
+- `title.style.padding = "12px";`
+- `title.style.borderRadius = "15px";`
 
 ### 3. Changing Content
-`title.textContent = "DOM DOM DOM";`
-`title.innerHTML = "<span>DOM</span>";`
-`title.innerText = "DOM DOM";` <!-- Only shows visibile text -->
+- `title.textContent = "DOM DOM DOM";`
+- `title.innerHTML = "<span>DOM</span>";`
+- `title.innerText = "DOM DOM";` <!-- Only shows visibile text -->
 
 #### Difference Between textContent, innerHTML, innerText
 
@@ -56,12 +56,17 @@ For example: document.getElementById("myId") gets a node, and you can change its
 - 💡 **Note:** `innerText` is affected by CSS styles (e.g., `display: none`), while `textContent` is not.
 
 ### 4. Changing Attributes
-`title.setAttribute("class", "heading common");`
-`title.getAttribute("class");`
-`title.removeAttribute("class");`
+- `title.setAttribute("class", "heading common");`
+- `title.getAttribute("class");`
+- `title.removeAttribute("class");`
 
 ### 5. Adding/Removing Elements
-
+```javascript
+const new = document.createElement("div");
+new.textContent = "I'm new!";
+document.body.appendChild(new);
+document.body.removeChild(new);
+```
 
 ### 6. Event Listeners
 ```javascript
