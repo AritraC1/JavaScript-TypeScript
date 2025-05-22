@@ -53,7 +53,7 @@ For example: document.getElementById("myId") gets a node, and you can change its
 | `innerText`   | Returns or sets the **visible text** of the element (CSS-aware).            | ❌ No                | ⚠️ Slower     | ✅ Yes                   |
 
 
-- 💡 **Note:** `innerText` is affected by CSS styles (e.g., `display: none`), while `textContent` is not.
+> 💡 **Note:** `innerText` is affected by CSS styles (e.g., `display: none`), while `textContent` is not.
 
 ### 4. Changing Attributes
 - `title.setAttribute("class", "heading common");`
