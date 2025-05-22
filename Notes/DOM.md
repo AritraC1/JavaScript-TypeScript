@@ -30,7 +30,7 @@ For example: document.getElementById("myId") gets a node, and you can change its
 ### 1. Selecting Elements
 - `document.getElementById("myId");`
 - `document.querySelector(".myClass");`
-- `document.querySelectorAll("div");` <!-- NodeList of all divs -->
+- `document.querySelectorAll("div");`  // NodeList of all divs
 
 ### 2. Changing Styles
 - `const title = document.getElementById("title");`
@@ -42,7 +42,7 @@ For example: document.getElementById("myId") gets a node, and you can change its
 ### 3. Changing Content
 - `title.textContent = "DOM DOM DOM";`
 - `title.innerHTML = "<span>DOM</span>";`
-- `title.innerText = "DOM DOM";` <!-- Only shows visibile text -->
+- `title.innerText = "DOM DOM";` // Only shows visibile text
 
 #### Difference Between textContent, innerHTML, innerText
 
