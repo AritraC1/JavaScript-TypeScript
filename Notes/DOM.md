@@ -25,5 +25,52 @@ For example: document.getElementById("myId") gets a node, and you can change its
 ## DOM Tree Example
 ![DOM Tree](images/DOMTree.png)
 
+## Accessing and Manipulating the DOM with JavaScript
+
+### 1. Selecting Elements
+`document.getElementById("myId");`
+`document.querySelector(".myClass");`
+`document.querySelectorAll("div");` <!-- NodeList of all divs -->
+
+### 2. Changing Styles
+`const title = document.getElementById("title");`
+`title.style.backgroundColor = "blue";`
+`title.style.color = "white";`
+`title.style.padding = "12px";`
+`title.style.borderRadius = "15px";`
+
+### 3. Changing Content
+`title.textContent = "DOM DOM DOM";`
+`title.innerHTML = "<span>DOM</span>";`
+`title.innerText = "DOM DOM";` <!-- Only shows visibile text -->
+
+#### Difference Between textContent, innerHTML, innerText
+
+| Property      | Description                                                                 | Includes HTML Tags  | Performance  | Hidden Elements Affected? |
+|---------------|-----------------------------------------------------------------------------|---------------------|--------------|---------------------------|
+| `textContent` | Returns or sets the **text** content of an element and all its descendants. | ❌ No                | ✅ Fast       | ❌ No                    |
+| `innerHTML`   | Returns or sets the **HTML markup** inside the element.                     | ✅ Yes               | ⚠️ Slower     | ✅ Yes                   |
+| `innerText`   | Returns or sets the **visible text** of the element (CSS-aware).            | ❌ No                | ⚠️ Slower     | ✅ Yes                   |
+
+
+- 💡 **Note:** `innerText` is affected by CSS styles (e.g., `display: none`), while `textContent` is not.
+
+### 4. Changing Attributes
+`title.setAttribute("class", "heading common");`
+`title.getAttribute("class");`
+`title.removeAttribute("class");`
+
+### 5. Adding/Removing Elements
+
+
+### 6. Event Listeners
+```javascript
+const btn = document.getElementById("myBtn");
+btn.addEventListener("click", () => {
+  alert("Button clicked!");
+});
+```
+
+
 ### More:
 [DOM - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
