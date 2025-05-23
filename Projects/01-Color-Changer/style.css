@@ -1,0 +1,42 @@
+* {
+    font-family: monospace;
+    margin: 0;
+}
+
+span {
+    display: block;
+}
+
+.canvas {
+    text-align: center;
+    height: 100vh;
+}
+
+.heading h1, .heading h3 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#grey {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+
+#blue {
+  background: blue;
+}
+
+#yellow {
+  background: yellow;
+}
+
