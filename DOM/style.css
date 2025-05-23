@@ -1,3 +1,7 @@
+* {
+    font-family: monospace;
+}
+
 .bg-black {
     background-color: #212121;
     color: white; /* Optional: If you want the text to be white on a black background */
