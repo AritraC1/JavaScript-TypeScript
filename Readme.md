@@ -1,4 +1,4 @@
-# JavaScript-TypeScript
+# JavaScript/TypeScript
 
 ## About
 This repo covers both JS & TS Basics, JS Intermediate, OOP, & DOM. It also includes notes, mini real-world projects, and coding problems to strengthen problem-solving and JS skills.
