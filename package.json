@@ -18,5 +18,10 @@
   "homepage": "https://github.com/AritraC1/JavaScript#readme",
   "dependencies": {
     "prompt-sync": "^4.2.0"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^5.8.3"
   }
 }
