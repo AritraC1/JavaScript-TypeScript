@@ -15,10 +15,24 @@ let number: number = 6;
 // number = "" // Type 'string' is not assignable to type 'number'.
 console.log(number);
 
-let userID: number = 334455;
+// ': dataType' is not required when we are directly declaring the value. It is redundant. TS is smart enough to figure it out itself.
+let userID = 334455;
+// userID = 4454.3
 console.log(userID);
 
 // Boolean
 let isLoggedIn: boolean = false
+
+// Any
+// TypeScript also has a special type, any, that you can use whenever you don’t want a particular value to cause typechecking errors.
+// You usually want to avoid this, though, because any isn’t type-checked. Use the compiler flag noImplicitAny to flag any implicit any as an error.
+
+let hero;
+
+function getHero() {
+    return "SpiderMan";
+}
+
+hero = getHero()
 
 export {}
