@@ -1,23 +1,23 @@
 // Second Largest/Smallest Element Without Sorting
 let arr = [3, 2, 1, 5, 2, 7, 7];
 
-// Step1: To find the largest
-let largest = arr[0];
+// Brute/Better Solution Solution - To find the largest and use this largest to find the secondLargest
 
-for (let i = 0; i < arr.length; i++) {
-  if (largest < arr[i]) {
-    largest = arr[i];
+// Optimal Solution
+function secondLargestNumber(arr) {
+  largest = arr[0];
+  secondLargest = -Infinity;
+
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > largest) {
+      secondLargest = largest;
+      largest = arr[i];
+    } else if (arr[i] < largest && arr[i] > secondLargest) {
+      secondlargest = arr[i];
+    }
   }
+
+  return secondLargest;
 }
 
-// Step2: Use this largest to find the second largest
-let secondLargest = -Infinity;
-
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] > secondLargest && arr[i] < largest) {
-    secondLargest = arr[i];
-  }
-}
-
-// Step3: Return the second largest
-console.log(`Second Largest Value in the array: ${secondLargest}`);
+console.log(`The second largest number in the given array is ${secondLargestNumber(arr)}`)
